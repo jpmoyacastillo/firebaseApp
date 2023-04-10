@@ -4,6 +4,8 @@ body {
   padding: 0;
   font-family: "Rubik", sans-serif;
   background-color: #eef0f4;
+  color: #3f3047;
+  user-select: none;
 }
 
 .container {
@@ -32,13 +34,18 @@ input {
 
 button {
   color: #fdfdfd;
-  background-color: #ac485a;
+  background-color: #5171a5;
   border: 0;
   padding: 15px;
   border-radius: 8px;
   font-size: 20px;
   text-align: center;
   font-family: "Rubik", sans-serif;
+}
+
+button:hover {
+  background-color: #364b6d;
+  cursor: pointer;
 }
 
 ul {
@@ -53,9 +60,14 @@ ul li {
   font-size: 20px;
   background-color: #fffdf8;
   padding: 15px;
-  color: #ac485a;
   border-radius: 8px;
   flex-grow: 1;
   text-align: center;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li:hover {
+  color: #fffdf8;
+  background-color: #5b8c5a;
+  cursor: pointer;
 }
